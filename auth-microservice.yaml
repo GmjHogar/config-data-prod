@@ -2,11 +2,9 @@ server:
   port: 8001
 eureka:
   client:
-    fetch-registry: true
-    register-with-eureka: true  
-    eureka-server-u-r-l-context: http://eureka-microservice:8761/eureka
-  instance:
-    hostname: localhost
+    enabled: true
+    serviceUrl:
+      defaultZone: http://eureka-microservice:8761/eureka
 
 jwt:
   secret: electrohogar
