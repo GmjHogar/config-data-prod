@@ -17,7 +17,7 @@ eureka:
   client:
     enabled: true
     serviceUrl:
-      defaultZone: http://eureka-microservice:8761
+      defaultZone: http://eureka-microservice:8761/eureka
 
 jwt:
   secret: electrohogarl
