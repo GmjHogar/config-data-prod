@@ -1,0 +1,28 @@
+server:
+  port: 8080
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true  
+    eureka-server-u-r-l-context: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: auth-microservice
+          uri: lb://auth-microservice
+          predicates:
+            - Path=/**
+        - id: user-microservice
+          uri: lb://user-microservice
+          predicates:
+            - Path=/api/v1/users/**
+          filters: AuthFilter
+
+              
