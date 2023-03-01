@@ -1,0 +1,23 @@
+server:
+  port: 8003
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.1.171:3306/adminGeneral-microservice
+    username: admin
+    password: admin
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true   
+
+eureka:
+  client:
+    enabled: true
+    serviceUrl:
+      defaultZone: http://eureka-microservice:8761/eureka
+
+jwt:
+  secret: electrohogarl
