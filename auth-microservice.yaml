@@ -2,10 +2,30 @@ server:
   port: 8001
 eureka:
   client:
-    enabled: true
-    serviceUrl:
-      defaultZone: http://eureka-microservice:8761/eureka
-
+    fetch-registry: true
+    register-with-eureka: true  
+    service-url.defaultZone: http://192.168.1.241:8761/eureka/
+  instance:
+    hostname: 192.168.1.241
+    lease-renewal-interval-in-seconds: 30
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,logfile
 jwt:
   secret: electrohogar
+
+spring:
+  devtools:
+    restart:
+      enabled: true
+
+user:
+  microservice:
+    url: http://192.168.1.241:8002/api/v1/users
+
+administration:
+  microservice:
+    url: http://192.168.1.241:8003/api/v1/roles
 
