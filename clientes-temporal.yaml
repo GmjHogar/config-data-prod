@@ -43,4 +43,4 @@ user:
     url: http://192.168.1.241:8002/api/v1/users
 administration:
   microservice:
-    url: http://192.168.1.241:8003/api/v1/rolesc    
+    url: http://192.168.1.241:8003/api/v1/roles    
