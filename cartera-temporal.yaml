@@ -9,10 +9,6 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
-        jdbc:
-          batch_size: 1000
-        order_inserts: true
-        order_updates: true
     hibernate.ddl-auto: update
     generate-ddl: true
     show-sql: false
@@ -21,11 +17,11 @@ spring:
       charset: UTF-8
       force: true
   messages:
-    encoding: UTF-8
+    encoding: UTF-8  
   servlet:
     multipart:
       max-file-size: 10MB
-      max-request-size: 10MB
+      max-request-size: 10MB  
 management:
   endpoints:
     web:
@@ -34,7 +30,7 @@ management:
 eureka:
   client:
     fetch-registry: true
-    register-with-eureka: true
+    register-with-eureka: true  
     service-url.defaultZone: http://192.168.1.241:8761/eureka/
   instance:
     hostname: 192.168.1.241
@@ -46,4 +42,4 @@ clientes:
   temporal: http://192.168.1.191:8020/api/v1/clientes
 auth:
   microservice:
-    url: http://192.168.1.171:8001/api/v1
+    url: http://192.168.1.171:8001/api/v1  
