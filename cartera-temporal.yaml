@@ -24,8 +24,8 @@ spring:
     multipart:
       max-file-size: 1000MB
       max-request-size: 1000MB  
-  resources:
-    static-location: classpath:/static/,classpath:/othersources/
+  ruta:
+    recuros: J:\\Duvan Humberto Diaz Contreras\\ElectroHogar\\GMJHOGAR_SOFTWARE\\cartera_microservice_temporal\\cartera_temporal\\src\\main\\resources
 management:
   endpoints:
     web:
