@@ -5,8 +5,8 @@ tomcat:
 spring:
   datasource:
     url: jdbc:mysql://192.168.1.171:3306/cartera-temporal
-    username: admin
-    password: admin
+    username: programs
+    password: 3SbaYcPuWQ9VOO82
   jpa:
     properties:
       hibernate:
