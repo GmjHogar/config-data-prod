@@ -7,6 +7,8 @@ spring:
     url: jdbc:mysql://192.168.1.171:3306/cartera-temporal
     username: admin
     password: admin
+    hikari:
+      max-lifetime: 1800000
   jpa:
     properties:
       hibernate:
