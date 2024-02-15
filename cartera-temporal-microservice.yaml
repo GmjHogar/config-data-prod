@@ -44,7 +44,7 @@ user:
   microservice:
     url: http://192.168.1.171:8002/api/v1/users
 clientes:
-  temporal: http://192.168.1.171:8020/api/v1/clientes
+  temporal: http://192.168.1.241:8020/api/v1/clientes
 auth:
   microservice:
     url: http://192.168.1.171:8001/api/v1  
