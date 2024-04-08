@@ -23,9 +23,9 @@ spring:
 
 user:
   microservice:
-    url: http://192.168.1.241:8002/api/v1/users
+    url: http://192.168.1.171:8002/api/v1/users
 
 administration:
   microservice:
-    url: http://192.168.1.241:8003/api/v1/roles
+    url: http://192.168.1.171:8003/api/v1/roles
 
