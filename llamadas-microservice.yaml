@@ -4,11 +4,12 @@ tomcat:
   relaxed-query-chars: ['{','}']  
 spring:
   datasource:
-    url: jdbc:mysql://192.168.1.171:3306/llamadas_microservice
-    username: admin
-    password: admin
+    url: jdbc:mysql://192.168.1.3:3306/asteriskcdrdb
+    username: gonzalomejia
+    password: G0nz4l0Mej1@
     hikari:
       max-lifetime: 1800000
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     properties:
       hibernate:
