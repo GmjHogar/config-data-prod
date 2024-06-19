@@ -31,21 +31,21 @@ jwt:
   secret: electrohogarl
 administration:
   microservice:
-    url: http://192.168.1.241:8003/api/v1/roles
+    url: http://192.168.1.171:8003/api/v1/roles
 
 user:
   microservice:
-    url: http://192.168.1.241:8002/api/v1/users
+    url: http://192.168.1.171:8002/api/v1/users
 
 cartera:
   microservice:
-    url: http://192.168.1.241:8006/api/v1/cartera
+    url: http://192.168.1.171:8006/api/v1/cartera
 auth:
   microservice:
-    url: http://192.168.1.241:8001/api/v1
+    url: http://192.168.1.171:8001/api/v1
 clientes:
   microservice:
-    url: http://192.168.1.241:8004/api/v1    
+    url: http://192.168.1.171:8004/api/v1    
 url:
   ruta:
     reportes: /uploads
