@@ -40,6 +40,9 @@ eureka:
   instance:
     hostname: 192.168.1.241
     lease-renewal-interval-in-seconds: 30
+administration:
+  microservice:
+    url: http://192.168.1.171:8003/api/v1/
 user:
   microservice:
     url: http://192.168.1.171:8002/api/v1/users
@@ -51,3 +54,5 @@ auth:
 ruta:
   firmas: /uploads/Firmas
   recibos: /uploads/Recibos  
+username: admin
+password: tatin1421 
