@@ -2,7 +2,7 @@ server:
   port: 8004
 spring:
   datasource:
-    url: jdbc:mysql://192.168.1.171:3306/clientes-microservice
+    url: jdbc:mysql://192.168.1.241:3306/clientes-microservice
     username: admin
     password: admin
   jpa:
@@ -11,7 +11,7 @@ spring:
         dialect: org.hibernate.dialect.MySQL8Dialect
     hibernate.ddl-auto: update
     generate-ddl: true
-    show-sql: true   
+    show-sql: true
 management:
   endpoints:
     web:
@@ -20,12 +20,11 @@ management:
 eureka:
   client:
     fetch-registry: true
-    register-with-eureka: true  
+    register-with-eureka: true
     service-url.defaultZone: http://192.168.1.241:8761/eureka/
   instance:
     hostname: 192.168.1.241
     lease-renewal-interval-in-seconds: 30
-
 
 user:
   microservice:
