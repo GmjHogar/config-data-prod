@@ -1,6 +1,12 @@
 server:
   port: 8012
 spring:
+  task:
+    executor:
+      pool:
+        core-size: 10
+        max-size: 50
+      queue-capacity: 100
   datasource:
     url: jdbc:mysql://192.168.1.241:3306/creditos-microservice
     username: admin
