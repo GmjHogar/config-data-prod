@@ -41,3 +41,6 @@ clientes:
     url: http://192.168.1.241:8004/api/v1
 jwt:
   secret: electrohogar
+
+url-back: http://192.168.1.241:8012/api/v1
+url: /data/uploads
