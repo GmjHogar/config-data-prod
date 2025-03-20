@@ -18,6 +18,11 @@ spring:
     hibernate.ddl-auto: update
     generate-ddl: true
     show-sql: true
+  cache:
+    type: redis
+  redis:
+    host: 172.17.0.6
+    port: 6379
 management:
   endpoints:
     web:
@@ -49,4 +54,4 @@ jwt:
   secret: electrohogar
 
 url-back: http://192.168.1.241:8012/api/v1
-url: /data/uploads
+url: /data/uploads/
