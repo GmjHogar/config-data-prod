@@ -46,7 +46,7 @@ auth:
 
 administration:
   microservice:
-    url: http://192.168.1.171:8003/api/v1/roles
+    url: http://192.168.1.241:8003/api/v1/roles
 clientes:
   microservice:
     url: http://192.168.1.241:8004/api/v1
