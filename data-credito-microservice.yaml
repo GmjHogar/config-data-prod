@@ -55,3 +55,9 @@ jwt:
 
 url-back: http://192.168.1.241:8012/api/v1
 url: /data/uploads/
+
+data_credito:
+  clientId: 0oap0lmbt8DIofFZ10h7
+  username: 2-901056810.1@demo.datacredito.com.co
+  password: Gom2025**
+  clientSecret: MyXK_QM0d_2ogXj84NIeOOYh8fBOK8ACkawRCvxj
