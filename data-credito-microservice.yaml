@@ -46,9 +46,8 @@ clientes:
 jwt:
   secret: ${jwtsecret}
 
-url-back: http://192.168.1.241:8012/api/v1
-url: /data/uploads/
-url-base: ${urlbase}
+
+url-base: ${urlApiDataCredito}
 data_credito:
   clientId: ${clientId}
   username: ${clientSecret}
