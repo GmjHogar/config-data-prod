@@ -1,16 +1,9 @@
 server:
   port: 8013
 spring:
-  # cloud:
-  #     vault:
-  #       application-name: credentials-data-credito-microservice
-  #       authentication: TOKEN
-  #       token: ${TOKEN_VAULT}
-  #       scheme: ${SCHEME_VAULT}
-  #       port: ${PORT_VAULT}
-  #       host: ${HOST_VAULT}
-  # config:
-  #     import: vault://kv/credentials-data-credito-microservice
+  
+  application:
+        name: data-credito-microservice    
   datasource:
     url: jdbc:mysql://192.168.1.241:3306/data-credito-microservice
     username: admin
