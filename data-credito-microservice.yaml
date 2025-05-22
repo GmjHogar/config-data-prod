@@ -49,7 +49,9 @@ jwt:
 
 url-base: ${urlApiDataCredito}
 data_credito:
+
   clientId: ${clientId}
-  username: ${clientSecret}
+
+  username: ${username}
   password: ${password}
-  clientSecret: ${username}
+  clientSecret: ${clientSecret}
