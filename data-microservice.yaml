@@ -9,8 +9,8 @@ spring:
   #       scheme: ${SCHEME_VAULT}
   #       port: ${PORT_VAULT}
   #       host: ${HOST_VAULT}
-  config:
-      import: vault://kv/credentials-data-credito-microservice
+  # config:
+  #     import: vault://kv/credentials-data-credito-microservice
   datasource:
     url: jdbc:mysql://192.168.1.241:3306/data-credito-microservice
     username: admin
