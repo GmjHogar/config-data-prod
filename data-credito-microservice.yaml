@@ -60,3 +60,7 @@ clientSecret: MyXK_QM0d_2ogXj84NIeOOYh8fBOK8ACkawRCvxj
 originator-channel-name: CONEXRED-01
 originator-channel-type: 42
 request-uuid: 3fa85f64-5717-4562-b3fc-2c963f66afa6
+logging:
+  level:
+    reactor.netty.http.client.HttpClient: DEBUG
+    org.springframework.web.reactive.function.client.ExchangeFunctions: TRACE
