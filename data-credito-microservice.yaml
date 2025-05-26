@@ -60,6 +60,10 @@ clientSecret: MyXK_QM0d_2ogXj84NIeOOYh8fBOK8ACkawRCvxj
 originator-channel-name: CONEXRED-01
 originator-channel-type: 42
 request-uuid: 3fa85f64-5717-4562-b3fc-2c963f66afa6
+server-ip-address: 192.168.1.241
+product-id: 64
+info-account-type: 1
+
 logging:
   level:
     reactor.netty.http.client.HttpClient: DEBUG
