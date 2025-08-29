@@ -2,7 +2,7 @@ server:
   port: 8007
 spring:
   datasource:
-    url: jdbc:mysql://192.168.1.241:3306/consignaciones-microservice
+    url: jdbc:mysql://192.168.1.171:3306/consignaciones-microservice
     username: admin
     password: admin
   jpa:
